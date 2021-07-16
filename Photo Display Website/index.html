@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Photo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section id="sect">
+            <h2 class="h-primary">Hey!!!!</h2>
+            <p>This is a webpage that uses Unsplash API to genertae random images everytime you reload the website. Share your review or suggestions <a href="#contact">here</a>.         
+            </p>
+        </section>
+        <section id="sect1">
+            <h2 class="h-primary">Photo Related to Nature</h2>
+            <img src="https://source.unsplash.com/1600x900/?nature" alt="">
+        </section>
+        <section id="sect2">
+            <h2 class="h-primary">Photo Related to city</h2>
+            <img src="https://source.unsplash.com/1600x900/?city" alt="">
+        </section>
+        <section id="sect3">
+            <h2 class="h-primary">Photo Related to Cats</h2>
+            <img src="https://source.unsplash.com/1600x900/?cats" alt="">
+        </section>
+        <section id="sect4">
+            <h2 class="h-primary">Photo Related to Dogs</h2>
+            <img src="https://source.unsplash.com/1600x900/?dogs" alt="">
+        </section>
+    </div>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone No:</label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter Phone number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="name">Suggestions:</label>
+                    <textarea name="Suggestions" id="Suggestions" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer" id="foot">
+        &copy; All Right Reserved With <a href="https://unsplash.com/" target="_blank">www.unsplash.com</a>
+    </footer>
+</body>
+</html>
